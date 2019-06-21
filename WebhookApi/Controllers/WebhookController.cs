@@ -38,7 +38,7 @@ namespace WebhookApi.Controllers
 			}
 
 			if (sb.Length == 0) {
-				sb.Append("Greetings from our Webhook API!");
+				sb.Append("Greetings from our Webhook API plus CI/CD is awesome!");
 			}
 
 			response.FulfillmentText = sb.ToString();
